@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B Squared Ventures</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafaf9;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #1d3a5f;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 48px 32px 40px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo-lockup {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-mark {
+      flex-shrink: 0;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      color: var(--accent);
+    }
+
+    main {
+      flex: 1;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 72px 32px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+      color: var(--accent);
+      margin-bottom: 24px;
+    }
+
+    .divider {
+      width: 40px;
+      height: 3px;
+      background: var(--accent);
+      margin-bottom: 32px;
+      border-radius: 2px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #374151;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .address {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    .copyright {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 32px 24px; }
+      main { padding: 48px 24px; }
+      h1 { font-size: 28px; }
+      footer { padding: 28px 24px; flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-lockup">
+      <svg class="logo-mark" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Filled rounded square background -->
+        <rect width="40" height="40" rx="8" fill="#1d3a5f"/>
+        <!-- B² text centered -->
+        <text x="20" y="27" text-anchor="middle"
+              font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif"
+              font-size="20" font-weight="700" fill="#ffffff" letter-spacing="-0.5">B</text>
+        <!-- Superscript 2 -->
+        <text x="29" y="17" text-anchor="middle"
+              font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif"
+              font-size="10" font-weight="700" fill="#ffffff">2</text>
+      </svg>
+      <div class="logo">B Squared Ventures</div>
+    </div>
+  </header>
+
+  <main>
+    <h1>Private Investment Partnership</h1>
+    <div class="divider"></div>
+
+    <p>
+      B Squared Ventures is a Southern California–based private investment partnership focused on
+      long-term value creation across technology, hospitality, and real estate.
+    </p>
+  </main>
+
+  <footer>
+    <div class="address">
+      B Squared Ventures<br />
+      1155 Camino Del Mar, Suite 450<br />
+      Del Mar, CA 92014
+    </div>
+    <div class="copyright">&copy; 2026 B Squared Ventures</div>
+  </footer>
+
+</body>
+</html>
