@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="Curator">
+  <rect width="56" height="56" rx="12" fill="#F2EFE7"/>
+  <text x="14" y="38"
+        font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+        font-size="36"
+        font-weight="400"
+        fill="#0F1210"
+        letter-spacing="-1">C</text>
+  <rect x="14" y="42" width="28" height="1" fill="#0F1210" opacity="0.7"/>
+</svg>
